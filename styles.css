@@ -6,8 +6,7 @@
 .primary {
     display: flex;
     background-color: rgb(38, 34, 111);
-    
-    padding: 0px 30px;
+    padding: 0px 80px;
     flex-wrap: wrap ;
     color: white;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 
@@ -17,7 +16,6 @@
 
 h1 {
     margin: 0px;
-    padding: 10px;
     font-size: 30px;
     justify-self: flex-start;
     align-items: center;
@@ -27,6 +25,7 @@ h1 {
     display: flex;
     flex-basis: 100%;
     justify-content: space-between;
+    padding-: 0px 10px 0px 10px;
     
 }
 
@@ -46,21 +45,27 @@ h1 {
 
 .headertwo {
     font-size: 25px;
+    margin: 0px;
 }
 .lower {
     display: flex;
     flex-direction: column;
-    flex-basis: 100%;
+    flex-basis: 50%;
     gap: 10px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    align-items: flex-start;
     
 }
 
 .signup {
     width: 75px;
-    margin: 10px;
 }
 
 .headerimg {
     display: flex;
     margin: 10px;
+    width: 200px;
+    height: 200px;
+    justify-self: flex-end;
 }
