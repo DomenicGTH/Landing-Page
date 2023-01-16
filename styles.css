@@ -1,0 +1,10 @@
+.primary {
+    display: flex;
+    background-color: aqua;
+    justify-content: center;
+}
+
+.lower {
+    display: flex;
+    flex-direction: column;
+}
