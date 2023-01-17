@@ -32,6 +32,7 @@ a.header-link {
     text-decoration: none;
     color: inherit;
 }
+
 .header-link {
     display: flex;
     align-items: center;
@@ -64,6 +65,7 @@ a.header-link {
 .signup {
     width: 100px;
     height: 30px;
+    margin-top: 5px;
     border-radius: 10px;
     color: rgb(255, 255, 255);
     background-color: rgb(0, 123, 255);
@@ -115,8 +117,9 @@ a.header-link {
 
 .secondcontent {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     flex-basis: 100%;
+    margin: 0px 20px 0px 20px;
 }
 
 .thirdsection {
@@ -126,7 +129,7 @@ a.header-link {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 
     'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 
     'Open Sans', 'Helvetica Neue', sans-serif;
-    padding: 200px 300px 200px 300px;
+    padding: 150px 300px 150px 300px;
     background-color: rgb(150, 150, 150);
 }
 
@@ -149,7 +152,7 @@ a.header-link {
 .fourthsection {
     display: flex;
     justify-content: center;
-    padding: 200px 300px;
+    padding: 150px 200px;
     flex-basis: 100%;
     color: white;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 
@@ -161,7 +164,7 @@ a.header-link {
     display: flex;
     align-items: center;
     background-color: rgb(0, 123, 255);
-    padding: 15px 20px;
+    padding: 15px 50px;
     border-radius: 25px;
 }
 
@@ -175,12 +178,11 @@ a.header-link {
 }
 
 .fourblurb {
-
     font-size: 15px;
 }
 
 .foursignup {
-    padding: 5px 20px 5px 20px;
+    padding: 5px 50px 5px 50px;
     margin: 25px;
     background-color: rgb(0, 123, 255);
     font-weight: 700;
@@ -188,4 +190,5 @@ a.header-link {
     color: white;
     border-color: white;
     font-family: inherit;
+    border-style: solid;
 }
